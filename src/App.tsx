@@ -5,9 +5,9 @@ import { Item } from './types/props';
 import classes from './styles/App.module.css'
 
 function App() {
-  const [idInstance, setIdInstance] = useState<string>('1101820153')
-  const [apiTokenInstance, setApiTokenInstance] = useState<string>('231a58f0ed6a48628dec284eb14b7c5864a46445e31a4012a3')
-  const [friendNumber, setFriendNumber] = useState<string>('79022424210')
+  const [idInstance, setIdInstance] = useState<string>('')
+  const [apiTokenInstance, setApiTokenInstance] = useState<string>('')
+  const [friendNumber, setFriendNumber] = useState<string>('')
   const [isButtonClicked, setIsButtonClicked] = useState<boolean>(false)
   const [friendMessage, setFriendMessage] = useState([])
   const [chat, setChat] = useState<Item[]>([])
