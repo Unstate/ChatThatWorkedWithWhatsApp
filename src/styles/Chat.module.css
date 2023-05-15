@@ -1,0 +1,33 @@
+.chatContainer {
+    @apply w-[1440px] m-auto flex flex-col items-center bg-[#EFEAE2] relative top-[50px];
+}
+
+.message {
+    @apply w-[1200px] h-[50px] text-lg rounded-lg mb-[20px] p-[10px] bg-white;
+}
+
+.chatContainer .chat {
+    @apply w-[1250px] h-[800px];
+}
+
+.info {
+    @apply w-[1300px] bg-[#F0F2F5] mt-[20px] h-[50px] p-[10px] rounded-lg text-lg flex items-center;
+}
+
+.sendButton {
+    @apply border-[2px] h-[50px] bg-blue-500 text-white px-[20px] py-[10px] mx-[10px] rounded-3xl;
+}
+
+.inputContainer {
+    @apply flex space-x-[10px] bg-[#F0F2F5] w-[100%] p-[20px] pb-[10px];
+}
+
+.infoContainer {
+    @apply flex items-center;
+}
+
+.backButton {
+    @apply relative top-[10px]
+}
+
+

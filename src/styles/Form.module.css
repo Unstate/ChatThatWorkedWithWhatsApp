@@ -1,0 +1,15 @@
+.formContainer {
+    @apply flex flex-col w-[800px] m-auto relative top-[300px] bg-white rounded-lg
+}
+
+.formInput {
+    @apply bg-gray-200 placeholder-gray-600 p-[20px] m-[10px] rounded-xl
+}
+
+.lastInput {
+    @apply mb-[20px]
+}
+
+.formButton {
+    @apply bg-blue-500 text-white p-[20px] rounded-3xl m-[10px];
+}

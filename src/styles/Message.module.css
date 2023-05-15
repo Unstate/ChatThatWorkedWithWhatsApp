@@ -1,0 +1,15 @@
+.forwaredFromYou {
+    @apply flex justify-end p-[5px] m-[10px] rounded-xl bg-[#D9FDD3] text-lg;
+}
+
+.forwaredToYou {
+    @apply flex justify-start  p-[5px] m-[10px] rounded-xl bg-white text-lg;
+}
+
+.forwaredFromYouContainer {
+    @apply flex justify-end items-center;
+}
+
+.forwaredToYouContainer {
+    @apply flex justify-start items-center;
+}
