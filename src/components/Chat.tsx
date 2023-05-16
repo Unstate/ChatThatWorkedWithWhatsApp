@@ -7,8 +7,6 @@ import { ChatProps } from '../types/props';
 
 const Chat: React.FC<ChatProps> = ({ idInstance, apiTokenInstance, friendNumber, chat, setFriendMessage, setChat, setIsButtonClicked, isOk, isRead, setIsOk, setIsRead, message,setMessage,whoTyped,setWhoTyped }) => {
 
-
-
     const clearInput = () => {
         setMessage('')
     }
@@ -66,10 +64,7 @@ const Chat: React.FC<ChatProps> = ({ idInstance, apiTokenInstance, friendNumber,
             .catch((error) => {
                 console.log(error);
             });
-
     }
-
-
 
     const deleteNot = (receiptId: number) => {
         let config = {
@@ -85,9 +80,7 @@ const Chat: React.FC<ChatProps> = ({ idInstance, apiTokenInstance, friendNumber,
             .catch((error) => {
                 console.log(error);
             });
-
     }
-
 
     return (
         <>
